@@ -1,9 +1,9 @@
-local GameId = game.GameId
+local GameId = tostring(game.GameId)
 
-if GameId == 6996253752 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarm0r/Loaders/refs/heads/main/central%20streetss"))()
-elseif GameId == 5674379281 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarm0r/Loaders/refs/heads/main/Tha%20Bronx"))()
+if GameId == "6996253752" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarm0r/Loaders/main/central%20streetss.lua"))()
+elseif GameId == "5674379281" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarm0r/Loaders/main/Tha%20Bronx.lua"))()
 else
     game.StarterGui:SetCore("SendNotification", {
         Title = "Loader";
